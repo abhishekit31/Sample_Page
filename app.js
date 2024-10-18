@@ -22,7 +22,6 @@ function validateForm()
         document.getElementById("lname-error").style.visibility = "hidden";
     }
 
-    let regx = //
     if (phone === "") {
         document.getElementById("phone-error").style.visibility = "visible";
         isValid = false;
