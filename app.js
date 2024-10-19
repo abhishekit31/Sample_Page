@@ -7,7 +7,7 @@ function validateForm()
     const form = document.getElementById("form");
 
     let isValid = true;
-    const errorStyle = "color: red; font-weight: bold;"
+    const errorStyle = "color: yellow; font-weight: bold;"
 
     if (fname === "") {
         document.getElementById("fname-error").innerHTML = "<span style='" + errorStyle + "'>First name is required</span>";
