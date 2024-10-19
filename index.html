@@ -16,11 +16,10 @@
             <h3><a href="#home">Home</a></h3>
             <h3><a href="#about">About</a></h3>
             <h3><a href="#contact">Contact</a></h3>
-
         </div>
     </div>
 
-    <!-- herosection -->
+    <!-- Hero Section -->
     <div class="herosection" id="home">
         <div class="left">
             <img id="abhi-img" src="Images/abhi.jpeg" alt="Scenic beach view with gentle waves"/>
@@ -33,7 +32,8 @@
             <p>She has just completed her intermediate studies and is currently pursuing a BSc in Nursing.</p>
         </div>
     </div>
-    <!-- ABOUT ME/ -->
+
+    <!-- About Me Section -->
     <div class="about-us" id="about">
         <div class="about-us-h1">
             <h1>ABOUT US</h1>    
@@ -42,36 +42,35 @@
             <img src="Images/Both.jpg" alt="Images Of Goldu & Vishu">
         </div>
         <div class="about-para">
-            <p>I remember that day when we met each other when i came back sasaram from my mussoorie tour and our friendship is still intact. I'm so grateful for your friendship Goldu now our friendship has become such a way that we both share everything of our life without any hesitation. I don't have words to explain our friendship I pray 🙏 to God that our friendship remains the same like this in future as well</p></
+            <p>I remember that day when we met each other when I came back to Sasaram from my Mussoorie tour, and our friendship is still intact. I'm so grateful for your friendship, Goldu. Now, our friendship has become such that we both share everything in our lives without any hesitation. I don't have words to explain our friendship. I pray 🙏 to God that our friendship remains the same like this in the future as well.</p>
         </div>
     </div>
 
-     <!-- Contact Me Section -->
-     <div class="contact" id="contact">
+    <!-- Contact Us Section -->
+    <div class="contact" id="contact">
         <div class="contact-h1">
             <h1>CONTACT US</h1>
         </div>
-        <form action="#contact" id="form" onsubmit = "return validateForm()">
-            <input type="text" id="fname" placeholder="firstname">
-            <label id="fname-error" style="color: blueviolet; visibility: hidden;">Please enter the firstname</label>
+        <form action="#contact" id="form" onsubmit="return validateForm()">
+            <input type="text" id="fname" placeholder="First Name">
+            <label id="fname-error" for="fname" style="visibility: hidden;">Please enter the firstname</label>
             <br><br>
 
-            <input type="text" id="lname" placeholder="lastname">
-            <label id="lname-error" style="color: blueviolet; visibility: hidden;">Please enter the lastname</label>
+            <input type="text" id="lname" placeholder="Last Name">
+            <label id="lname-error" for="lname" style="visibility: hidden;">Please enter the lastname</label>
             <br><br>
 
-            <input type="text" id="phone" placeholder="eg: 123456789">
-            <label id="phone-error" style="color: blueviolet; visibility: hidden;">Please enter the phone number</label>
+            <input type="tel" id="phone" placeholder="eg: 1234567890">
+            <label id="phone-error" for="phone" style="visibility: hidden;">Please enter the phone number</label>
             <br><br>
 
-            <input type="text" id="email" placeholder="abc@gmail.com">
-            <label id="email-error" style="color: blueviolet; visibility: hidden;">Please enter the email</label>
+            <input type="email" id="email" placeholder="abc@gmail.com">
+            <label id="email-error" for="email" style="visibility: hidden;">Please enter the email</label>
             <br><br>
 
             <div class="btn">
-                 <button type="submit">submit</button>
+                 <button type="submit">Submit</button>
             </div>
-           
         </form>
     </div>
 
